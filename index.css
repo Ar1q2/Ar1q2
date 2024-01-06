@@ -1,10 +1,24 @@
 .text-primary{
     color: #fd6e0a;
 }
+.section-title{
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.section-description{
+    color: #181818;
+    text-align: center;
+    font-size: 18px;
+
+}
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
  
 }
 
@@ -16,6 +30,7 @@ nav {
     line-height: normal;
 }
 
+
 nav>ul{
     display: flex;
     align-items: center;
@@ -26,9 +41,11 @@ nav li {
 }
 nav a {
       text-decoration: none;
-      color: black;
+      color:#474747;
 }
 
+    
+ 
 .btn-primary{
     border-radius: 5px;
     background:#fd6e0a ;
@@ -37,3 +54,36 @@ nav a {
     font-weight: 700;
     padding: 15px 35px;
 }
+
+
+.header {
+    background-color: #fff8f3;
+}
+
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+.banner .profile-pic{
+    width: 500px;
+}
+    
+.about {
+    padding: 135px;
+    border-radius: 10px;
+    background: #fff8f3;
+    margin: 70px;
+}
+    
+
+
+
+
+
+
+
